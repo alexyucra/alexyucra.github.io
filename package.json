@@ -11,7 +11,7 @@
     "clean": "node scripts/clean.js",
     "start": "npm run build && node scripts/start.js",
     "start:debug": "npm run build && node scripts/start-debug.js",
-    "deploy": "gh-pages -d ."
+    "deploy": "npm run build && gh-pages -d ."
   },
   "description": "A simple business HTML landing page built with Bootstrap",
   "keywords": [
@@ -48,6 +48,7 @@
     "postcss": "8.4.21",
     "prettier": "2.8.6",
     "pug": "3.0.2",
+    "push-dir": "^0.4.1",
     "sass": "1.60.0",
     "shelljs": "0.8.5",
     "upath": "2.0.1"
