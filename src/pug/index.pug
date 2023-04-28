@@ -1,14 +1,14 @@
 doctype html
-html(lang='en')
+html(lang='pt-BR')
 
     head
 
         meta(charset='utf-8')
         meta(name='viewport', content='width=device-width, initial-scale=1, shrink-to-fit=no')
-        meta(name='description', content='')
-        meta(name='author', content='')
+        meta(name='description', content='Transforme sua empresa com seu ativo mais poderoso: Os dados!')
+        meta(name='author', content='Alex Yucra')
 
-        title Business Frontpage - Start Bootstrap Template
+        title Latin Dev - Tratamento de dados para analise e relatorios
 
         // Favicon
         link(rel='icon', type='image/x-icon', href='assets/favicon.ico')
@@ -32,11 +32,12 @@ html(lang='en')
                         li.nav-item
                             a.nav-link.active(aria-current='page', href='#!') Home
                         li.nav-item
-                            a.nav-link(href='#!') About
+                            a.nav-link(href='#tecnologias') Tecnologías
                         li.nav-item
-                            a.nav-link(href='#!') Contact
+                            a.nav-link(href='#projetos') Projetos
                         li.nav-item
-                            a.nav-link(href='#!') Services
+                            a.nav-link(href='#contato') Contact
+                        
                         li.nav-item
                             a.nav-link(href='https://alexyucra.github.io/blog/') Blog
 
@@ -86,19 +87,19 @@ html(lang='en')
 
 
         // Tecnologias
-        section.bg-light.py-5.border-bottom
-            .container.px-5.my-5
+        section#tecnologias.bg-light.py-5.border-bottom
+            .container.px-5.my-5.px-5
                 .text-center.mb-5
                     h2.fw-bolder Algumas tecnologias que uso
                     p.lead.mb-0 Sou um consultor de análise de dados que atua com proximidade, rapidez e conhecimento de negócio para trazer os melhores resultados.
                 .row.gx-5.justify-content-center
                     // Pricing card free
-                    .col-lg-6.col-xl-4
+                    .col-lg-6.col-xl-6
                         .card.mb-5.mb-xl-0
                             .card-body.p-5
                                 .small.text-uppercase.fw-bold.text-muted Amplia experiencia desenvolvendo Sistemas Web
                                 .mb-3
-                                    span.display-4.fw-bold Backend and Frontend
+                                    span.display-6.fw-bold Backend and Frontend
                                     span.text-muted integração com API RestFul
                                 ul.list-unstyled.mb-4
                                     li.mb-2
@@ -129,12 +130,12 @@ html(lang='en')
                                     a.btn.btn-outline-primary(href='https://wa.me/51918804602') Me envia Whatsapp
                     
         // projetos
-        section.py-5.border-bottom
+        section#projetos.py-5.border-bottom
             .container.px-5.my-5.px-5
                 .text-center.mb-5
                     h2.fw-bolder Projetos Realizados
                     p.lead.mb-0 Meus clientes amaram estes trabalhos
-                .row.gx-5.justify-content-center
+                .row.gx-6.justify-content-center
                     .col-lg-6
                         // Projeto 1
                         .card.mb-4
@@ -172,8 +173,9 @@ html(lang='en')
                                     .ms-4
                                         p.mb-1 Sistema de consulta nos CNPJ brasil dos dados abertos 
                                         .small.text-muted - Ferramentas usadas: python, jupyter, docker, docker-compose, streamlit
+        
         // Contact section
-        section.bg-light.py-5
+        section#contato.bg-light.py-5
             .container.px-5.my-5.px-5
                 .text-center.mb-5
                     .feature.bg-primary.bg-gradient.text-white.rounded-3.mb-3
