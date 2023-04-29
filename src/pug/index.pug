@@ -147,7 +147,7 @@ html(lang='pt-BR')
                                         p.mb-1 Sistema de treinamento e classificação de texto para análise de sentimento e análise de intenção para chatbot.
                                         .small.text-muted - Ferramentas usadas: python, jupyter, flask, pandas, uso de multitheads en en SO Linux.
                         // Projeto 2
-                        .card
+                        .card.mb-4
                             .card-body.p-4
                                 .d-flex
                                     .flex-shrink-0
@@ -156,7 +156,7 @@ html(lang='pt-BR')
                                         p.mb-1 Sistema de automatização de processos ETL, com dashboard de relatorios dinámicos. 
                                         .small.text-muted - Ferramentas usadas: python, jupyter, docker, docker-compose, streamlit, airflow, Linux.
                         // Projeto 3
-                        .card
+                        .card.mb-4
                             .card-body.p-4
                                 .d-flex
                                     .flex-shrink-0
@@ -165,7 +165,7 @@ html(lang='pt-BR')
                                         p.mb-1 Script de extração de numeros whatsapp na internet. 
                                         .small.text-muted - Ferramentas usadas: python, colab, Linux.
                         // Projeto 4
-                        .card
+                        .card.mb-4
                             .card-body.p-4
                                 .d-flex
                                     .flex-shrink-0
@@ -194,7 +194,7 @@ html(lang='pt-BR')
                         // https://startbootstrap.com/solution/contact-forms
                         // to get an API token!
 
-                        form#contactForm(data-sb-form-api-token='API_TOKEN')
+                        form#contactForm(action="https://formsubmit.co/xalextrack@gmail.com" method="POST")
 
                             // Name input
                             .form-floating.mb-3
@@ -210,6 +210,7 @@ html(lang='pt-BR')
                             // Email address input
                             .form-floating.mb-3
                                 input#email.form-control(
+                                    name='email'
                                     type='email',
                                     placeholder='name@example.com'
                                     data-sb-validations='required,email'
@@ -249,11 +250,7 @@ html(lang='pt-BR')
                             // has successfully submitted
                             #submitSuccessMessage.d-none
                                 .text-center.mb-3
-                                    .fw-bolder Form submission successful!
-                                    | To activate this form, sign up at
-                                    br
-                                    a(href='https://startbootstrap.com/solution/contact-forms') https://startbootstrap.com/solution/contact-forms
-
+                                    .fw-bolder Email enviado com sucesso!
                             // Submit error message
                             //
                             // This is what your users will see when there is
@@ -281,4 +278,4 @@ html(lang='pt-BR')
         // * * Activate your form at https://startbootstrap.com/solution/contact-forms * *
         // * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
 
-        script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
+        //- script(src='https://cdn.startbootstrap.com/sb-forms-latest.js')
